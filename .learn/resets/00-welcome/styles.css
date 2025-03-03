@@ -1,16 +1,17 @@
 body {
-	margin: 200px;
-	background: black;
+	background: white;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
 }
 .postcard {
 	background: white;
-	width: 420px;
+	width: 400px;
 	height: 300px;
 	margin: auto;
-	padding: 15px;
 }
 .postcard-header {
-	padding: 10px 5px 5px 5px;
 	display: flex;
 }
 .postcard-header img {
@@ -40,6 +41,6 @@ input {
 }
 button {
 	background-color: gray;
-	color: aliceblue;
+	color:aliceblue;
 	padding: 10px;
 }
